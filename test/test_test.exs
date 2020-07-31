@@ -19,16 +19,16 @@ defmodule TestTest do
   end
 
   test "internal function raises" do
-    assert Test.raise() == :okay
+    assert Test.raise() == :ok
   end
 
   test "internal function raises with stacktrace" do
-    assert Test.raise_stacktrace() == :ok
+    assert Test.raise_stacktrace() == :okay
   end
 
   test "multiple failing" do
     assert 1 == 2
-    assert 1 == 3
+    assert 1 == 2
     assert 1 == 4
   end
 
