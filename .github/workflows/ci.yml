@@ -12,6 +12,6 @@ jobs:
           otp-version: '23.0'
           elixir-version: '1.10.4'
       - run: mix deps.get
-      # - run: echo "::add-matcher::.github/problem-matchers/exunit.json"   
-      - run: echo "::add-matcher::.github/problem-matchers/seed.json"   
+      - run: echo "::add-matcher::.github/problem-matchers/exunit.json"   
+      # - run: echo "::add-matcher::.github/problem-matchers/seed.json"   
       - run: mix test
