@@ -4,7 +4,7 @@
           "owner": "exunit",
           "pattern": [
               {
-                  "regexp": "[0-9]+\\).*\\n\\s*(.*):([0-9]*)\\n\\s*(.*)",
+                  "regexp": "[0-9]+\\).*%5Cn\\s*(.*):([0-9]*)%5Cn\\s*(.*)",
                   "file": 1,
                   "line": 2,
                   "message": 3
