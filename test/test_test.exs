@@ -19,7 +19,7 @@ defmodule TestTest do
   end
 
   test "internal function raises" do
-    assert Test.raise() == :ok
+    assert Test.raise() == :okay
   end
 
   test "internal function raises with stacktrace" do
