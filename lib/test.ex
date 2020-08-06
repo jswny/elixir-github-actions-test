@@ -17,7 +17,7 @@ defmodule Test do
   end
 
   def raise do
-    raise "Application error!"
+    raise "Application error"
   end
 
   def raise_stacktrace do
